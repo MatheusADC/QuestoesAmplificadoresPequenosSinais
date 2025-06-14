@@ -1,0 +1,239 @@
+[
+    {
+        "type": "node",
+        "id": "node_ground",
+        "position": {
+            "x": 113.386,
+            "y": -212.598
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ground",
+        "position": {
+            "x": 170.079,
+            "y": -212.598
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_ground",
+        "position": {
+            "x": 226.772,
+            "y": -212.598
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 113.386,
+            "y": -212.598
+        },
+        "end": {
+            "x": 113.386,
+            "y": -297.638
+        },
+        "label": {
+            "value": "R2",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 170.079,
+            "y": -207.874
+        },
+        "end": {
+            "x": 170.079,
+            "y": -264.567
+        },
+        "label": {
+            "value": "RE",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "node",
+        "id": "node_npn",
+        "position": {
+            "x": 170.079,
+            "y": -340.157
+        }
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 113.386,
+            "y": -297.638
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 113.386,
+                    "y": -340.157
+                },
+                "direction": "-|"
+            },
+            {
+                "endPoint": {
+                    "x": 138.331,
+                    "y": -340.157
+                },
+                "direction": "-|"
+            }
+        ]
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 113.386,
+            "y": -369.259
+        },
+        "end": {
+            "x": 113.386,
+            "y": -435.401
+        },
+        "label": {
+            "value": "R1",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 170.079,
+            "y": -369.259
+        },
+        "end": {
+            "x": 170.079,
+            "y": -435.401
+        },
+        "label": {
+            "value": "RC",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 113.386,
+            "y": -435.401
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 170.079,
+                    "y": -435.401
+                },
+                "direction": "-|"
+            }
+        ]
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 113.386,
+            "y": -369.259
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 113.386,
+                    "y": -340.157
+                },
+                "direction": "-|"
+            }
+        ]
+    },
+    {
+        "type": "path",
+        "id": "path_battery",
+        "start": {
+            "x": 226.772,
+            "y": -354.331
+        },
+        "end": {
+            "x": 226.772,
+            "y": -325.984
+        },
+        "label": {
+            "value": "VCC",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 226.772,
+            "y": -212.598
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 226.772,
+                    "y": -325.984
+                },
+                "direction": "-|"
+            }
+        ]
+    },
+    {
+        "type": "wire",
+        "start": {
+            "x": 170.079,
+            "y": -435.401
+        },
+        "segments": [
+            {
+                "endPoint": {
+                    "x": 226.772,
+                    "y": -434.646
+                },
+                "direction": "-|"
+            },
+            {
+                "endPoint": {
+                    "x": 226.772,
+                    "y": -354.331
+                },
+                "direction": "-|"
+            }
+        ]
+    },
+    {
+        "type": "node",
+        "id": "node_circ",
+        "position": {
+            "x": 113.386,
+            "y": -340.157
+        },
+        "label": {
+            "value": "VBB",
+            "anchor": "default",
+            "position": "northwest",
+            "distance": "0.12cm"
+        }
+    },
+    {
+        "type": "path",
+        "id": "path_american-resistor",
+        "start": {
+            "x": 170.079,
+            "y": -311.055
+        },
+        "end": {
+            "x": 170.079,
+            "y": -264.567
+        },
+        "label": {
+            "value": "re",
+            "otherSide": true,
+            "distance": "0.12cm"
+        }
+    }
+]
